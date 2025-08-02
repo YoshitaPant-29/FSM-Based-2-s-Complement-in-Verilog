@@ -31,7 +31,3 @@ The Verilog code is synthesized into a gate-level netlist and simulated without 
 confirm that logical correctness is preserved after synthesis. The outputs are identical to
 the behavioral simulation. 
 
-4.3 Post-Synthesis Timing Simulation
-In this simulation, the synthesized netlist includes delays from logic gates, wires, and
-flip-flops. The results confirm correct operation with a slight timing shift representing
-real-world hardware delay effects.
